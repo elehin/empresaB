@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CatalogComponent } from './catalog/catalog.component';
 import { HomeComponent } from './home/home.component';
-import { InitialComponent } from './initial/initial.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'initial', component: InitialComponent }
+  { path: 'catalog', component: CatalogComponent }
 ];
 
 @NgModule({
