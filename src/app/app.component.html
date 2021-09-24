@@ -1,9 +1,16 @@
-<div>
-  <ul>
-    <li><a routerLink="/catalog">Catálogo</a></li>
-    <li><a routerLink="/home">Inicio</a></li>
-    <li><a routerLink="/contacto">Contacto</a></li>
-  </ul>
-</div>
+<div fxLayout="row">
 
-<router-outlet></router-outlet>
+  <div fxFlex="20">
+    <ul>
+      <li><a routerLink="/catalog">Catálogo</a></li>
+      <li><a routerLink="/home">Inicio</a></li>
+      <li><a routerLink="/contacto">Contacto</a></li>
+      <li><a routerLink="/covid">COVID-19</a></li>
+    </ul>
+  </div>
+
+  <div fxFlex>
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
